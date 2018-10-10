@@ -1,0 +1,5 @@
+v1_0_0: 
+ feature/initial: study_plan.txt is created
+ felease/v1_0_0:  this file (release_letter.txt) is added. 
+
+ 
