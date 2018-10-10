@@ -1,4 +1,4 @@
-v1_0_0: 
+v1_0_0: OCT-10-2018 09:47:00
  feature/initial: study_plan.txt is created
  felease/v1_0_0:  this file (release_letter.txt) is added. 
 
