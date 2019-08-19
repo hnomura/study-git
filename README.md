@@ -5,7 +5,7 @@
 - Essential operation by CLI 
 - GUI based operation (at least one of the following) 
     - GIT Extentions  
-    - GitHub dessktop  
+    - GitHub desktop  
     - gitk and git ui
 - GitHub 
     - Pull Request 
