@@ -30,4 +30,19 @@ $ git checkout -b <branch_name>  <remote_name>/<branch_name>
 
 > $ git checkout -b branch_x   origin/branch_x 
 
+### Delete remote branch 
+```
+$ git push --delete <remote_name> <branch_name> 
+```
+
+> $ git push --delete origin branch_name 
+
+### Delete local branches already deleted on remote 
+```
+$ git fetch --prune 
+```
+
+> $ git branch -a       # list all branches 
+> $ git fetch --prune   # delete branches already deleted on remote 
+
 
