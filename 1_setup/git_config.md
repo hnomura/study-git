@@ -11,6 +11,7 @@ $ git config --local -l
 $ git config --global user.name "Hiroshi Nomura" 
 $ git config --global user.email "hnomura@foo.boo.com" 
 $ git config --global color.ui auto 
-$ git config --global core.editor notepad
+$ git config --global core.editor notepad  
+$ git config --global core.editor nano     # nano comes with GIT bash 
 ```
 
