@@ -1,9 +1,0 @@
-v1_0_1: OCT-10-2018 10:19:00
- release/v1_0_1:  SoruceTree.docx is added 
- hotfix/Revise_Release_Letter_for_v1_0_1 is tagged as v1_0_1
-
-v1_0_0: OCT-10-2018 09:47:00
- feature/initial: study_plan.txt is created
- release/v1_0_0:  this file (release_letter.txt) is added. 
-
- 
