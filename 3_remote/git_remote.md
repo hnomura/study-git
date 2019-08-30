@@ -9,18 +9,19 @@ $ git remote add <remote_name> <remote_repo_url>
 
 ### push to remote 
 ```
-$ git push -u <remote_name> <branch_name>
+$ git push <remote_name> <branch_name>
 ```
 
-> $ git push -u origin master 
+> $ git push origin master 
 
 ### set as tracked remote branch 
 ```
 $ git push --set-upstream <remote_name> <branch_name> 
+$ git push -u <remote_name> <branch_name>
 ```
-> $ git push --set-upstream origin master 
+> $ git push -u origin feature/f1_branch 
 
-Current local branch points to the specified remote branch by default.  
+Current local branch points to the specified remote branch by -u (--set-upstream).  
 No need to specify name/branch to `git push`, `git pull`, etc. 
 
 ### Checkout remote branch to local as tracked branch
