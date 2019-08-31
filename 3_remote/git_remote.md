@@ -46,4 +46,11 @@ $ git fetch --prune
 > $ git branch -a       # list all branches 
 > $ git fetch --prune   # delete branches already deleted on remote 
 
+### Show remote 
+```
+$ git remote show <remote_name> 
+```
+
+> $ git remote show origin 
+
 
