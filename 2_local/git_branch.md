@@ -4,6 +4,7 @@
 ```
 $ git branch               # local branches
 $ git branch -v            # local branches with latest commit to each 
+$ git branch -vv           # local branches with latest commit & tracked branch 
 $ git branch --merged      # local branches merged to the current branch already 
 $ git branch --no-merged   # local branches not merged to the current branch yet 
 
