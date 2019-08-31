@@ -43,3 +43,11 @@ $ git push -u <remote_name> <branch_name>
 NOTE: `<remote_name> <branch_name>` must NOT be confused as `<remote_name>/<branch_name>`.   `git-push` allows to specify different branch name in remote by the following syntax.  
 > $ git push <remote_name> <local_branch_name>:<remote_branch_name>
 
+
+### checkout from remote repository 
+```
+$ git checkout -b <branch_name> <remote_name>/<branch_name> 
+$ git checkout --track <remote_name>/<branch_name> 
+$ git checkout <branch_name>     # if <branch_name> does not exist locally, and there is only 1 remote. 
+```
+NOTE: The remote branch created is tracked.  
